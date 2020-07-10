@@ -1,0 +1,8 @@
+{ sum=0
+for (i=2;i<=NF;i++) {
+sum+=$i 
+average=sum/3
+}
+if ( average > 80 ) {
+print $0 , "average:" average  "  pass "
+} else if ( average > 70 && average < 80 ) { print $0, "average :" average " : pass " } else { print $0, average ": fail" } }
