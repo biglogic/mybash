@@ -3,4 +3,5 @@ cd myfirstvagrant
     then  
     vagrant up
     vagrant ssh
+    echo done
     fi
